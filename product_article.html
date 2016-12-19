@@ -312,18 +312,24 @@
 				
 				<div class="xl12 xs4 text-center">
 					<a href=""><img src="./img/product/product_article_p5.jpg" class="img-responsive"></a>
+					<a href="">
+						<p>Malaysia 200TPH Granite Mobile Crushing Line</p>
+					</a>
 					
-					<p>Malaysia 200TPH Granite Mobile Crushing Line</p>
 				</div>
 				<div class="xl12 xs4 text-center" >
 				<a href=""><img src="./img/product/product_article_p6.jpg" class="img-responsive"> </a>
-				
-					<p>Uzbekistan 3-5t/h tufa stone grinding machines</p>
+					<a href="">
+						<p>Uzbekistan 3-5t/h tufa stone grinding machines</p>
+					</a>
+					
 				</div>
 				<div class="xl12 xs4 text-center">
 				<a href=""><img src="./img/product/product_article_p7.jpg" class="img-responsive"></a>
-				
-					<p>Uzbekistan 3-5t/h tufa stone grinding machines</p>
+					<a href="">
+						<p>Uzbekistan 3-5t/h tufa stone grinding machines</p>
+					</a>
+					
 				</div>
 			
 			</div>
@@ -417,15 +423,9 @@
 	</div>
 </body>
 <script type="text/javascript">
-	// $('.tog').toggle(
-	// 	function(){
-	// 	$(this).children('img').attr('src','./img/product/product_article_-.jpg');
-	// },
-	// 	function(){
-	// 	$(this).children('img').attr('src','./img/product/product_article_+.jpg');
-	// })
+	
 	$('.tog').click(function(){
-		$(this).next('span').next('ul').toggle()
+		$(this).next('span').next('ul').slideToggle(300)
 		$(this).toggleClass('tm');
 	});
 </script>
